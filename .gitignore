@@ -15,6 +15,15 @@ build/
 *.apk
 *.aab
 *.hprof
+*.log
+output-metadata.json
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing credentials
+*.jks
+*.keystore
 
 # Locally exported test reports
 Test Results - *.html
