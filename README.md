@@ -163,10 +163,13 @@ The following saved reports provide a reviewable snapshot of the checks run for 
 
 | Check | Scope | Saved result |
 |---|---|---|
-| Android lint | Static analysis of the debug build | [Open lint report](docs/test-results/lint-debug.html) |
 | `PayrollCalculatorTest` | Local JVM business-rule tests | [View result](docs/test-results/payroll-calculator-test.jpg) |
 | `DefaultPayrollRepositoryTest` | Instrumented Room repository tests | [View result](docs/test-results/default-payroll-repository-test.jpg) |
 | `PayrollUiTest` | Instrumented end-to-end Compose workflow | [View result](docs/test-results/payroll-ui-test.jpg) |
+
+**Android lint:** [Download the debug lint report](docs/test-results/lint-debug.html)
+
+> GitHub displays committed HTML files as source code. Download the lint report using its **Download raw file** button, then open the downloaded file in a web browser.
 
 #### Payroll calculator unit-test result
 
@@ -181,8 +184,6 @@ The following saved reports provide a reviewable snapshot of the checks run for 
 ![PayrollUiTest result](docs/test-results/payroll-ui-test.jpg)
 
 These files are retained as evidence from a specific run. The Gradle commands above remain the source of truth and can be used to reproduce the checks in the current environment.
-
-> **Viewing the lint report:** GitHub displays committed HTML files as source code. Download the lint report using its **Download raw file** button, then open the downloaded file in a web browser. Test-result screenshots can be viewed directly on GitHub.
 
 ## Download the demo APK
 
