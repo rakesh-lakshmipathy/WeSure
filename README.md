@@ -168,6 +168,8 @@ The following saved reports provide a reviewable snapshot of the checks run for 
 
 These files are retained as evidence from a specific run. The Gradle commands above remain the source of truth and can be used to reproduce the checks in the current environment.
 
+> **Viewing HTML reports:** GitHub displays committed HTML files as source code. Download an HTML report using its **Download raw file** button, then open the downloaded file in a web browser. The JPG result can be viewed directly on GitHub.
+
 ## Run the app
 
 1. Open the project in Android Studio.
