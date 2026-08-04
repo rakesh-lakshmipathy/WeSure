@@ -151,6 +151,23 @@ Run Android lint:
 .\gradlew.bat lintDebug
 ```
 
+### Verification reports
+
+The following saved reports provide a reviewable snapshot of the checks run for this assessment:
+
+| Check | Scope | Saved result |
+|---|---|---|
+| Android lint | Static analysis of the debug build | [Open lint report](docs/test-results/lint-debug.html) |
+| `PayrollCalculatorTest` | Local JVM business-rule tests | [View result](docs/test-results/payroll-calculator-test.jpg) |
+| `DefaultPayrollRepositoryTest` | Instrumented Room repository tests | [Open test report](docs/test-results/default-payroll-repository-test.html) |
+| `PayrollUiTest` | Instrumented end-to-end Compose workflow | [Open test report](docs/test-results/payroll-ui-test.html) |
+
+#### Payroll calculator unit-test result
+
+![PayrollCalculatorTest result](docs/test-results/payroll-calculator-test.jpg)
+
+These files are retained as evidence from a specific run. The Gradle commands above remain the source of truth and can be used to reproduce the checks in the current environment.
+
 ## Run the app
 
 1. Open the project in Android Studio.
