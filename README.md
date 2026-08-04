@@ -159,16 +159,24 @@ The following saved reports provide a reviewable snapshot of the checks run for 
 |---|---|---|
 | Android lint | Static analysis of the debug build | [Open lint report](docs/test-results/lint-debug.html) |
 | `PayrollCalculatorTest` | Local JVM business-rule tests | [View result](docs/test-results/payroll-calculator-test.jpg) |
-| `DefaultPayrollRepositoryTest` | Instrumented Room repository tests | [Open test report](docs/test-results/default-payroll-repository-test.html) |
-| `PayrollUiTest` | Instrumented end-to-end Compose workflow | [Open test report](docs/test-results/payroll-ui-test.html) |
+| `DefaultPayrollRepositoryTest` | Instrumented Room repository tests | [View result](docs/test-results/default-payroll-repository-test.jpg) |
+| `PayrollUiTest` | Instrumented end-to-end Compose workflow | [View result](docs/test-results/payroll-ui-test.jpg) |
 
 #### Payroll calculator unit-test result
 
 ![PayrollCalculatorTest result](docs/test-results/payroll-calculator-test.jpg)
 
+#### Repository integration-test result
+
+![DefaultPayrollRepositoryTest result](docs/test-results/default-payroll-repository-test.jpg)
+
+#### Compose UI-test result
+
+![PayrollUiTest result](docs/test-results/payroll-ui-test.jpg)
+
 These files are retained as evidence from a specific run. The Gradle commands above remain the source of truth and can be used to reproduce the checks in the current environment.
 
-> **Viewing HTML reports:** GitHub displays committed HTML files as source code. Download an HTML report using its **Download raw file** button, then open the downloaded file in a web browser. The JPG result can be viewed directly on GitHub.
+> **Viewing the lint report:** GitHub displays committed HTML files as source code. Download the lint report using its **Download raw file** button, then open the downloaded file in a web browser. Test-result screenshots can be viewed directly on GitHub.
 
 ## Download the demo APK
 
