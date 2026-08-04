@@ -170,6 +170,18 @@ These files are retained as evidence from a specific run. The Gradle commands ab
 
 > **Viewing HTML reports:** GitHub displays committed HTML files as source code. Download an HTML report using its **Download raw file** button, then open the downloaded file in a web browser. The JPG result can be viewed directly on GitHub.
 
+## Download the demo APK
+
+[Download HourlyPayroll debug APK](https://github.com/rakesh-lakshmipathy/WeSure/raw/refs/heads/main/releases/HourlyPayroll-debug.apk)
+
+This APK is a debug build provided for assessment and demonstration. Android may ask for permission to install apps from the browser or file manager used to open it.
+
+SHA-256:
+
+```text
+031C6A7C4F6C0FA48821AB303F83234CEF874F3267F86123B36FC131A767CAF3
+```
+
 ## Run the app
 
 1. Open the project in Android Studio.
