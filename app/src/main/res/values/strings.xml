@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Wesure</string>
+    <string name="payroll_list_title">Payrolls</string>
+    <string name="sync">Sync</string>
+    <string name="new_payroll">New</string>
+    <string name="no_payrolls">No payrolls yet\nCreate one to get started.</string>
+    <string name="payroll_list_item">Payroll from %1$s, %2$d employees, total %3$s</string>
+    <plurals name="employee_count">
+        <item quantity="one">%d employee</item>
+        <item quantity="other">%d employees</item>
+    </plurals>
+    <string name="total_payroll">Total payroll %1$s</string>
+    <string name="create_payroll">Create payroll</string>
+    <string name="edit_payroll">Edit payroll</string>
+    <string name="back">Back</string>
+    <string name="back_description">Go back</string>
+    <string name="edit_description">Edit payroll</string>
+    <string name="delete_description">Delete payroll</string>
+    <string name="create_payroll_description">Create new payroll</string>
+    <string name="sync_payrolls_description">Synchronize payrolls</string>
+    <string name="review_payroll">Review payroll</string>
+    <string name="employees">Employees</string>
+    <string name="tax_rule" formatted="false">Taxes are 5% only for non-exempt wages above 1,000.</string>
+    <string name="full_name">Full name</string>
+    <string name="wages">Wages</string>
+    <string name="tax_exempt">Tax exempt</string>
+    <string name="add_employee">Add employee</string>
+    <string name="add_employee_error">Add at least one employee.</string>
+    <string name="employee_input_error">Enter a name and valid non-negative wage.</string>
+    <string name="employee_exempt">%1$s · Exempt</string>
+    <string name="remove_employee">Remove %1$s</string>
+    <string name="review_instruction">Confirm the employees and totals before saving.</string>
+    <string name="save_changes">Save changes</string>
+    <string name="gross">Gross</string>
+    <string name="taxes">Taxes</string>
+    <string name="net">Net</string>
+    <string name="total">Total</string>
+    <string name="payroll_details">Payroll details</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="total_wages">Total wages</string>
+    <string name="payroll_summary">Payroll summary</string>
+    <string name="total_taxes">Total taxes</string>
+    <string name="total_net">Total net</string>
+    <string name="delete_payroll_question">Delete payroll?</string>
+    <string name="delete_payroll_message">This removes the payroll from this device.</string>
+    <string name="sync_notice">Sync notice</string>
+    <string name="retry">Retry</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="returning_to_payrolls">Payroll no longer exists. Returning to payrolls…</string>
+</resources>

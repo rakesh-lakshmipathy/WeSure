@@ -1,0 +1,28 @@
+# Android Studio and local machine settings
+.idea/
+*.iml
+local.properties
+app/google-services.json
+
+# Gradle and Kotlin caches
+.gradle/
+.gradle-user/
+.kotlin/
+build/
+**/build/
+
+# Generated binaries and diagnostics
+*.apk
+*.aab
+*.hprof
+
+# Locally exported test reports
+Test Results - *.html
+
+# Obsolete Room schemas from earlier package names
+app/schemas/com.weshare.payroll.data.local.PayrollDatabase/
+app/schemas/com.weshare.payroll.feature.payroll.data.local.PayrollDatabase/
+
+# OS files
+.DS_Store
+Thumbs.db

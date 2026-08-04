@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="@color/payroll_icon_foreground"
+        android:pathData="M31,18C27.1,18 24,21.1 24,25L24,83C24,86.9 27.1,90 31,90L77,90C80.9,90 84,86.9 84,83L84,39L63,18L31,18M61,23L79,41L66,41C63.2,41 61,38.8 61,36L61,23M37,51L71,51L71,57L37,57L37,51M37,63L71,63L71,69L37,69L37,63M37,75L58,75L58,81L37,81L37,75Z" />
+    <path android:fillColor="@color/payroll_blue"
+        android:pathData="M41,31L66,31L66,36L58,36C60.8,37.4 62.7,40.1 63.2,43L67,43L67,47L63.1,47C62.2,52.5 57.4,56 51.3,56C47.5,56 44.2,54.6 41.8,52.1L44.8,48.7C46.5,50.4 48.8,51.4 51.3,51.4C54.9,51.4 57.8,49.7 58.6,47L41,47L41,43L58.7,43C57.6,40.5 54.9,39 51.3,39L41,39L41,31Z" />
+</vector>
