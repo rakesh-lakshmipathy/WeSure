@@ -16,6 +16,12 @@ The app supports creating, reviewing, editing, and deleting payrolls. Payroll da
 - Record payroll lifecycle events with Firebase Analytics.
 - Report unexpected local-write failures through Crashlytics.
 
+## Feature demo
+
+The accelerated recording below demonstrates the complete create, review, edit, and delete payroll workflow.
+
+![WeSure payroll workflow demo](docs/demo/payroll-flow.gif)
+
 ## Business rule
 
 An employee pays 5% tax when:
